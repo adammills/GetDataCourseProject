@@ -1,12 +1,14 @@
-# Contents #
+# Code Book #
+
+## Contents ##
 
 The data set contains a cleansed and aggregated version of the UCI HAR Dataset.
 
-# Summary #
+## Summary ##
 180 observations of 68 variables
 The file includes a header line.
 
-# Key Fields #
+## Key Fields ##
 
 **Subject**
 Subject is an ID field for the 30 subjects who participated in the study. (*see README.md*)
@@ -24,7 +26,7 @@ Activities are one of six possible activities to which related data was collecte
 **Additional Fields*
 All additional fields are aggregated means grouped by subject and activity.
 
-# Field Listing #
+## Field Listing ##
 
  1  $ subject                    : int  1 1 1 1 1 1 2 2 2 2 ...
  2  $ activity                   : Factor w/ 6 levels "LAYING","SITTING",..: 1 2 3 4 5 6 1 2 3 4 ...
@@ -95,7 +97,7 @@ All additional fields are aggregated means grouped by subject and activity.
  67 $ fBodyBodyGyroJerkMag-mean(): num  -0.942 -0.99 -0.995 -0.319 -0.282 ...
  68 $ fBodyBodyGyroJerkMag-std() : num  -0.933 -0.987 -0.995 -0.382 -0.392 ...
  
- # Head #
+ ## Head ##
  > head(cleanseddataset[,1:5])
   subject           activity tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z
 1       1             LAYING         0.2215982      -0.040513953        -0.1132036
