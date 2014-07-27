@@ -1,6 +1,6 @@
-# README #
+## README ##
 
-## GetData-005 Submission Overview ##
+### GetData-005 Submission Overview ###
 
 This git repository contains:
 
@@ -14,7 +14,7 @@ This git repository contains:
 * cleanseddata folder
   Contains ouput.csv the cleansed data set who's schema is described in CodeBook.md
   
-## run_analysis.R Overview ##
+### run_analysis.R Overview ###
 
 1. Loads in the required library reshape2 which is required for the functions melt and dcast.
 2. Defines the operating directory for the source data.
