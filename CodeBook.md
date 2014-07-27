@@ -27,7 +27,7 @@ Activities are one of six possible activities to which related data was collecte
 All additional fields are aggregated means grouped by subject and activity.
 
 ## Field Listing ##
-
+```
  1  $ subject                    : int  1 1 1 1 1 1 2 2 2 2 ...
  2  $ activity                   : Factor w/ 6 levels "LAYING","SITTING",..: 1 2 3 4 5 6 1 2 3 4 ...
  3  $ tBodyAcc-mean()-X          : num  0.222 0.261 0.279 0.277 0.289 ...
@@ -96,8 +96,10 @@ All additional fields are aggregated means grouped by subject and activity.
  66 $ fBodyBodyGyroMag-std()     : num  -0.824 -0.932 -0.978 -0.321 -0.398 ...
  67 $ fBodyBodyGyroJerkMag-mean(): num  -0.942 -0.99 -0.995 -0.319 -0.282 ...
  68 $ fBodyBodyGyroJerkMag-std() : num  -0.933 -0.987 -0.995 -0.382 -0.392 ...
+ ```
  
  ## Head ##
+ ```
  > head(cleanseddataset[,1:5])
   subject           activity tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z
 1       1             LAYING         0.2215982      -0.040513953        -0.1132036
@@ -106,3 +108,4 @@ All additional fields are aggregated means grouped by subject and activity.
 4       1            WALKING         0.2773308      -0.017383819        -0.1111481
 5       1 WALKING_DOWNSTAIRS         0.2891883      -0.009918505        -0.1075662
 6       1   WALKING_UPSTAIRS         0.2554617      -0.023953149        -0.0973020
+```
